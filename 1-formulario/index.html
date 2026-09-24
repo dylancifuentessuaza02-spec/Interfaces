@@ -8,54 +8,56 @@
   </head>
   <body>
       <fieldset>
-        <h1>Formulario de Contacto</h1>
+        <h1 id="titulo">Formulario de Contacto</h1>
 
         <hr>
-        <label>
+        <label id="nombre">
           Nombre:
           <input type="text" name="name" required>
         </label>
 
         <hr>
         
-        <label>
+        <label id="apellidos">
           Apellidos:
           <input type="text" name="surname" required>
         </label>
         
         <hr>
         
-        <label>
+        <label id="sexo">
           Sexo:
           <input type="radio" name="sex" value="male"> Masculino
           <input type="radio" name="sex" value="female"> Femenino
         </label>
         <hr>
         
-        <label>
+        <label id="nick">
           Nick:
           <input type="text" name="nickname" required>
         </label>
         
         <hr>
         
-        <label>
+        <label id="email">
           Email:
           <input type="email" name="email" required>
         </label>
         
         <hr>
         
-        <label>
+        <label id="comentario">
           Comentario:
           <textarea name="message" required></textarea>
         </label>
         
         <hr>
 
-        <button type="submit">Enviar</button>
-        <button type="reset">Reject</button>
+        <button id="enviar" type="submit">Enviar</button>
+        <button id="reject" type="reset">Reject</button>
 
       </fieldset>
+
+      <script src="script/miscript.js"></script>
   </body>
 </html>
