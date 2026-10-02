@@ -9,7 +9,11 @@ body {
     align-items: center;
 }
 
-fieldset {
+.fondo {
+    background-color: red;
+}
+
+form {
     width: 40%;
     background-color: #005F6B;
     box-shadow: 4px 4px 8px black,
@@ -31,6 +35,7 @@ button {
     border: none;
     padding: 8px 12px;
     margin: 0px 5px;
+    margin-bottom: 15px;
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 4px 4px 3px black,
@@ -42,10 +47,16 @@ input[type="email"] {
     border-radius: 10px;
     box-shadow:  4px 4px 3px black,
         -2px -2px 5px white;
+    padding: 0px auto;
 }
 
 textarea {
     border-radius: 20px;
     box-shadow: 4px 4px 3px black,
         -2px -2px 5px white;
+}
+
+div {
+    padding: 15px;
+    text-shadow: #008C9E;
 }
