@@ -1,0 +1,50 @@
+
+body {
+    background-color: aliceblue;
+    text-align: center;
+    margin: 200px;
+    margin-top: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#tarea {
+    margin: 15px;
+    border-radius: 10px;
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    box-shadow: 4px 3px 6px black,
+        -2px -2px 3px white;
+}
+
+#boton {
+    border-radius: 10px;
+    box-shadow: 4px 3px 6px black,
+        -2px -2px 3px white;
+    cursor: pointer;
+    height: 35px;
+}
+
+#lista_ordenada{
+    list-style: none;
+    padding-left: 0;
+}
+
+.eliminar {
+    margin-left: 25px;
+    border-radius: 10px;
+    box-shadow: 4px 3px 6px black,
+        -2px -2px 3px white;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    height: 30px;
+}
+
+.tarea {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+}
