@@ -1,0 +1,120 @@
+
+body {
+    margin: 0;
+    padding: 20px;
+    background-color: #101827;
+    color: #f1f5f9;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+header {
+    text-align: center;
+    grid-column: 1 / -1;
+    background-color: #d93636;
+    border: 3px solid #8f2020;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 5px 12px #00000066;
+}
+
+header img {
+    height: 15vh;
+    object-fit: contain;
+}
+
+header h1 {
+    margin-bottom: 5px;
+    color: white;
+    text-shadow: 2px 2px 3px #761919;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#elemento {
+    padding: 8px;
+    margin-left: 15px;
+}
+
+h2, h3 {
+    padding-left: 15px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#lista,
+#info {
+    background-color: #1e293b;
+    border: 2px solid #475569;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 5px 12px #00000055;
+    min-width: 0;
+}
+
+#lista h2,
+#info h2 {
+    color: #67e8f9;
+    border-bottom: 2px solid #475569;
+    padding-bottom: 12px;
+}
+
+.boton {
+    background-color: #22d3ee;
+    color: #10202b;
+    border: 2px solid #0891b2;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px #00000066;
+    height: 32px;
+    width: 130px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.boton:hover {
+    background-color: #a5f3fc;
+    transform: translateY(-2px);
+}
+
+#info img {
+    display: block;
+    height: 35vh;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 10px auto 20px;
+}
+
+#info p {
+    background-color: #27364b;
+    border: 1px solid #475569;
+    border-radius: 8px;
+    padding: 10px;
+    line-height: 1.5;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 650px) {
+    #main {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+        grid-column: 1;
+    }
+
+    #lista,
+    #info {
+        grid-column: 1;
+    }
+}
